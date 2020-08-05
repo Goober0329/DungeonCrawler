@@ -1,0 +1,48 @@
+**************** FOE FORMAT ******************* 
+BEGIN
+NAME
+TYPE
+DESC
+HEALTH
+DAMAGE
+SPEED
+SIGHT
+RARITY
+ABILS	(INTE, TELE, TUNN, ERRA, BOSS, LAZY, PASS)
+END
+********* INTERNAL ORDER UNIMPORTANT **********
+
+Types:
+ - Dwarf
+	- Cave Dwarf
+	- Dwarf Knight
+	- King Dwarf
+ - Human
+	- Angered Barbarian
+	- Dungeon Gaurd
+	- Underground Warrior
+ - Ogre
+	- Club Head
+	- Two-headed Ogre
+	- Ogre Cyclops
+ - Orc
+	- Horde Scum
+	- Orc Warlord
+	- Grunt Orc
+ - Troll
+	- Deep Troll
+	- Rock Troll
+	- Troll Lord
+ - Undead
+	- Skeleton
+	- Cave Zombie
+	- Lost Soul
+
+
+
+PC Base Stats (no armor, weapon, accessories, etc...)
+
+HEALTH 	50+2d6
+DAMAGE 	1+1d3
+SPEED	2+1d6
+SIGHT	2+2d3	

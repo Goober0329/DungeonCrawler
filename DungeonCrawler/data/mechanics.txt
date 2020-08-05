@@ -1,0 +1,45 @@
+Title Screen
+[a-Z, 0-9]@Type Player Name
+[Enter]@Begin the Game
+[y,n]@Load Game
+[?]@Open Game Mechanics
+
+Gameplay
+[w,a,s,d]@Player Movement
+[.]@Move Upstair
+[,]@Move Downstair
+mouse@Aim Attacks
+[p]@Pause Game
+[m]@Open Map
+[c]@Open Inventory
+[ESC]@Open Menu
+
+Paused Game
+left/right@Toggle Nearby Enemy
+[p]@Resume Game
+
+Map
+[m]@Close Map
+[c]@Open Inventory
+
+#
+Inventory
+arrow keys@Select Item
+[1-9, 0]@Place Favorite
+[w]@Wear/Use Item
+[s]@Store Item
+[d]@Drop Item
+[e]@Expunge Item
+[i]@Toggle Inspect
+[c]@Close Inventory
+[m]@Open Map
+
+Menu
+[m]+left/right@Music Volume
+[e]+left/right@Sound Effect Volume
+[s]@Save
+[S]@Save and Exit
+[?]@Open Game Mechanics
+
+Game Mechanics
+[?]@Close Game Mechanics

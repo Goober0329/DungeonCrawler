@@ -1,0 +1,182 @@
+**************** ITEM FORMAT ******************* 
+
+BEGIN
+NAME	
+TYPE	
+DESC	
+HEALB	
+DAMB				
+DEFB	
+SPEEB	
+SIGHB	
+WEIGHT	
+VAL	
+RRTY	
+END
+
+optional ATTR (
+TWOHAND RANGED 
+RHIDE DHIDE PASS RANDEFF CARD SCARD HIST FREEZE TEMP TUNN RAGE
+)
+ 
+RHIDE	- Random chance of enemies not knowing where PC is
+DHIDE 	- Enemies don't know where PC is
+PASS 	- PC can pass through walls
+RAGE	- Massive increase in damage
+RANDEFF	- Random effect, can be positive or negative, temporary or permanent
+CARD 	- Cardinal direction arrow shows on minimap (toward stairs)
+SCARD 	- Arrow shows on minimap the best direction to move (toward stairs)
+HIST 	- Reveal a tidbit of history knowledge about the dungeon
+FREEZE 	- Freeze NPC movement
+TUNN	- Increase tunneling speed (uses item weight)
+
+TEMP 	- Temporary attribute
+
+********* INTERNAL ORDER UNIMPORTANT **********
+
+Types:
+ - Possible weapons (WEAPON, OFFHAND, RANGED)
+	- Dagger
+	- Hammer
+	- Shovel
+	- Short Sword
+	- Hand Axe
+	- Scimitar
+	- Whip
+	- Club
+	- Mace
+	- Flail
+	- Spear
+	- Staff
+	- Iron Rod
+	- Pocket Knife
+	- Machete
+
+	- Great Sword
+	- Battleaxe
+	- Halberd
+	- Pickaxe
+
+	- Stone
+	- Tomahawk
+	- Blowgun
+	- Shortbow
+	- Longbow
+	- Hunting Sling
+	- Wooden Crossbow
+
+	- Wooden Sheild
+	- Bronze Sheild
+	- Iron Sheild
+	- Steel Sheild
+ 
+ - ARMOR
+	- Leather Armor
+	- Wooden Armor
+	- Bronze Armor
+	- Iron Armor
+	- Steel Armor
+
+ - HELMET
+	- Leather Helmet
+	- Wooden Helmet
+	- Bronze Helmet
+	- Iron Helmet
+	- Steel Helmet
+ 
+ - CLOAK
+	- Simple Cloak
+	- Shadow Cloak			(Random chance of enemies not knowing where PC is?)
+	- Stealth Cloak			(don't know where PC is outside of a certain distance?)
+	- Cloak of the Lost Soul	(very rare, can pass through walls)
+ 
+ - GLOVES
+	- Leather Gloves
+	- Enchanted Gloves
+	- Iron Knuckles			(TUNN)
+ 
+ - BOOTS
+	- Leather Boots
+	- Slippery Boots
+	- Dirty Boots
+	- Miner Boots			(TUNN)
+ 
+ - RING
+	- Lost Wedding Ring
+	- Golden Ring
+	- Bent Nail Ring
+	- Hollow Copper Ring
+	- Ring of Light Feet
+	- Mysterious Wedding Ring
+	- Ring of the Mighty Oak
+	- Ring of Protection
+	- Ring of Stealth		(don't know where PC is outside of a certain distance?)
+	- Bone Ring
+
+ - AMULET
+	- Amulet of Rage		(temporary massive damage bonus, worth a lot, one time use)
+	- Amulet of Speed		
+	- Jokers Amulet			(random (negative or positive) effect)
+	- Dungeon Amulet		
+	- Amulet of Knowing		(Arrow on minimap points generally toward the next stairs)
+	- Dungeoneers Amulet of Guidance (Arrow on minimap pointing to the direction of best move)
+
+ - LIGHT
+	- Candle
+	- Torch
+	- Glowstones
+	- Oil Lamp
+	- Bottle of Glowworms
+	- Bioluminescent Fungi
+	- 
+ 
+ - SCROLL
+	- Scroll of History		(Pull information from Dungeon Histoty. Tibdit per scroll, show somehow)
+	- Scroll of Knowledge		(Temporarily knows the direction of the stairs)
+	- Scroll of the Warrior		
+	- Scroll of Silence		(temp. don't know where PC is outside of a certain distance?)
+	- Scroll of the Horde		(temp. cause nearby NPCs to freeze in their tracks)
+ 
+ - FLASK
+	- Flask of Haste		(temporarily boost speed)
+	- Flask of Healing		(boost healing)
+	- Flask of Strength		(temporarily boost stength)
+	- Flask of Night Vision		(temporarily boost sight)
+	- Flask of Time			(temporarily freeze all NPCs)
+ 
+ - GOLD
+	- Copper Coin 	(20 copper  	--> 	silver)
+	- Silver Coin	(20 silver 	-->	gold)
+	- Gold Coin	
+	- Coin Purse
+	- Mysterious Chest
+	- Coin Chest
+ 
+ - FOOD
+	- Moldy Cheese
+	- Dungeon Shrooms
+	- Cooked Rabbit
+	- Cooked Rat
+	- Bruised Apple
+	- Dungeon Rations
+	- King's Feast
+	- Raw Cave Fish
+	- Cave Slime
+
+
+Note: 	WEAPON, OFFHAND, RANGED, ARMOR, HELMET, CLOAK, GLOVES, BOOTS, RING, AMULET, LIGHT
+		are all equippable item types. 
+
+	The rest will just stay in the inventory and are useable.
+	SCROLL, FLASK, GOLD, FOOD
+
+	WEAPON and OFFHAND is a two handed weapon.
+		make multiple type things available
+
+
+PC Base Stats (no armor, weapon, accessories, etc...)
+
+HEALTH 	50+2d6
+DAMAGE 	1+1d3
+SPEED	2+1d6
+SIGHT	2+2d3	

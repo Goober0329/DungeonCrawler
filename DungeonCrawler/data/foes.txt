@@ -1,0 +1,256 @@
+
+
+************ DWARVES ************
+
+BEGIN
+NAME	Cave Dwarf
+TYPE	DWARF
+DESC	The humble cave dwarf is among the most knowledgeable of the underground. Where their sight lacks, they make up for it with their easy movement through the cave systems.
+HEALTH	3+1d4
+DAMAGE	0+1d4
+SPEED	3+1d2
+SIGHT	2+2d3
+RARITY	90
+ABILS	INTE TUNN ERRA
+END
+
+BEGIN
+NAME	Dwarf Knight
+TYPE	DWARF
+DESC	Cursed and banished from their homelands, the dwarf knights are an angry lonesome creature just waiting for opportunities to draw blood. 
+HEALTH	8+1d3
+DAMAGE	3+1d4
+SPEED	3+1d3
+SIGHT	2+2d3
+RARITY	50
+ABILS	INTE
+END
+
+BEGIN
+NAME	King Dwarf
+TYPE	DWARF
+DESC	The King Dwarf is not really a king... But here in the underground he is one of the most powerful creatures to exist. He "earns" his dungeon throne by hunting and killing lost humans.
+HEALTH	20+1d6
+DAMAGE	5+2d4
+SPEED	3+1d4
+SIGHT	2+2d3
+RARITY	5
+ABILS	INTE TUNN TELE BOSS
+END
+
+************ HUMANS ************
+
+BEGIN
+NAME	Angered Barbarian
+TYPE	HUMAN
+DESC	Barbarians??? How did they get down here?? Uh oh! This one sounds angry!
+HEALTH	6+1d4
+DAMAGE	1+1d4
+SPEED	1+1d5
+SIGHT	2+2d3
+RARITY	80
+ABILS	INTE ERRA
+END
+
+BEGIN
+NAME	Dungeon Gaurd
+TYPE	HUMAN
+DESC	They say the dungeon gaurds have been guarding the underground for over a century. There are many rumors about what they gaurd, but to this day no one knows what it is...
+HEALTH	4+1d4
+DAMAGE	0+1d4
+SPEED	2+1d4
+SIGHT	2+2d3
+RARITY	80
+ABILS	ERRA
+END
+
+BEGIN
+NAME	Underground Warrior
+TYPE	HUMAN
+DESC	The underground warriors fight to protect the underground and to keep those lost in the cave system underground.
+HEALTH	3+1d4
+DAMAGE	2+1d3
+SPEED	1+1d4
+SIGHT	2+2d3
+RARITY	80
+ABILS	INTE ERRA 
+END
+
+************ OGRE ************
+
+BEGIN
+NAME	Club Head
+TYPE	OGRE
+DESC	Club heads are a lower breed of ogre that mostly live in the dark and do not like to be disturbed. try not to run in to one, because they are unnaturally strong.
+HEALTH	2+1d4
+DAMAGE	4+1d3
+SPEED	1+1d4
+SIGHT	2+2d3
+RARITY	60
+ABILS	ERRA 
+END
+
+BEGIN
+NAME	Two-headed Ogre
+TYPE	OGRE
+DESC	That second head isn't just for show! Two-headed ogres have developed the ability to know where intruders are in the dungeon at all times. 
+HEALTH	3+1d4
+DAMAGE	0+1d4
+SPEED	1+2d2
+SIGHT	2+2d3
+RARITY	50
+ABILS	ERRA TELE TUNN
+END
+
+BEGIN
+NAME	Ogre Cyclops
+TYPE	OGRE
+DESC	Although the ogre cyclops has limited sight, it makes up for it in intelligence.
+HEALTH	3+1d4
+DAMAGE	0+1d4
+SPEED	1+1d4
+SIGHT	2+1d3
+RARITY	60
+ABILS	TUNN INTE
+END
+
+************ ORCS ************
+
+BEGIN
+NAME	Horde Scum
+TYPE	ORC
+DESC	The runt of the litter. Horde Scum are alawys tring to prove themselves by trying to kill things around them.
+HEALTH	0+1d3
+DAMAGE	0+1d4
+SPEED	2+1d4
+SIGHT	2+2d3
+RARITY	70
+ABILS	ERRA 
+END
+
+
+BEGIN
+NAME	Grunt Orc
+TYPE	ORC
+DESC	Grunt orcs are commonly used for cheap labor. They aren't that smart, but they know how to move through dungeons fairly easily.
+HEALTH	0+1d5
+DAMAGE	0+1d4
+SPEED	0+1d5
+SIGHT	2+2d3
+RARITY	70
+ABILS	TUNN ERRA
+END
+
+BEGIN
+NAME	Orc Warlord
+TYPE	ORC
+DESC	The orc warlord controls the orc hordes of the underground and always fights to the death. He has fought many fights and has yet to die.
+HEALTH	15+2d4
+DAMAGE	3+3d3
+SPEED	2+1d3
+SIGHT	3+2d3
+RARITY	8
+ABILS	INTE TELE BOSS TUNN 
+END
+
+************ TROLLS ************
+
+BEGIN
+NAME	Deep Troll
+TYPE	TROLL
+DESC	For the most part deep trolls mind their own business. 
+HEALTH	0+1d3
+DAMAGE	0+1d2
+SPEED	0+1d5
+SIGHT	2+2d3
+RARITY	80
+ABILS	ERRA LAZY
+END
+
+BEGIN
+NAME	Rock Troll
+TYPE	TROLL
+DESC	Rock trolls are found tunneling through the underground mostly for food, sometimes for fun. Watch out for these hungry creatures. 
+HEALTH	2+1d5
+DAMAGE	2+1d3
+SPEED	1+1d5
+SIGHT	2+2d3
+RARITY	80
+ABILS	INTE ERRA TUNN 
+END
+
+BEGIN
+NAME	Troll Lord
+TYPE	TROLL
+DESC	Most trolls don't think too clearly. This one has learned to control others and use them to bring him food. Although he may be quite chunky, he is the strongest and quickest of all the trolls.
+HEALTH	18+1d3
+DAMAGE	8+1d3
+SPEED	1+2d3
+SIGHT	2+2d3
+RARITY	10
+ABILS	INTE TELE TUNN BOSS
+END
+
+************ UNDEAD ************
+
+BEGIN
+NAME	Skeleton
+TYPE	UNDEAD
+DESC	Risen bones of those fallen men in the underground. An easy challenge, but there are many of them and they are fast.
+HEALTH	0+1d5
+DAMAGE	0+1d3
+SPEED	0+2d3
+SIGHT	2+2d3
+RARITY	100
+ABILS	TELE INTE 
+END
+
+BEGIN
+NAME	Cave Zombie
+TYPE	UNDEAD
+DESC	No one knows what cause men to turn into cave zombies. The zombies of the underground are lazy creatures that don't care much for anything.
+HEALTH	0+1d5
+DAMAGE	0+1d3
+SPEED	0+1d3
+SIGHT	2+2d3
+RARITY	100
+ABILS	ERRA LAZY 
+END
+
+BEGIN
+NAME	Lost Soul
+TYPE	UNDEAD
+DESC	The lost soul passes through the underground moving to wherever it desires. Legend claims that the lost souls of the underground are men gone made that now haunt newcomers.
+HEALTH	0+1d5
+DAMAGE	0+1d3
+SPEED	0+1d5
+SIGHT	2+2d3
+RARITY	100
+ABILS	ERRA TUNN INTE TELE PASS
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

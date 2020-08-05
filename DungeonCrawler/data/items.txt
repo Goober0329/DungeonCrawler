@@ -1,0 +1,1455 @@
+
+
+************ WEAPON ************
+
+
+BEGIN
+NAME	Dagger
+TYPE	WEAPON
+DESC	A simple knife left behind in the dungeon
+HEALB	0+0d0
+DAMB	0+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	8c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Hammer
+TYPE	WEAPON
+DESC	Hammers were once used by the first dungeoneers who helped build the dungeon tunnels
+HEALB	0+0d0
+DAMB	0+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	8c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Short Sword
+TYPE	WEAPON
+DESC	A sharp one-handed blade
+HEALB	0+0d0
+DAMB	2+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	4
+VAL	1s+0d0 3c+2d2 
+RRTY	100
+END
+
+BEGIN
+NAME	Hand Axe
+TYPE	WEAPON
+DESC	A small one-handed axe
+HEALB	0+0d0
+DAMB	1+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	4
+VAL	1s+0d0 0c+1d2 
+RRTY	100
+END
+
+BEGIN
+NAME	Scimitar
+TYPE	WEAPON
+DESC	A finely crafted curved blade
+HEALB	0+0d0
+DAMB	2+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	3
+VAL	1s+0d0 5c+1d2 
+RRTY	90
+END
+
+BEGIN
+NAME	Whip
+TYPE	WEAPON
+DESC	A frayed rope made into a crude whip
+HEALB	0+0d0
+DAMB	0+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	2c+2d2
+RRTY	100
+END
+
+BEGIN
+NAME	Club
+TYPE	WEAPON
+DESC	An ogres club left abandoned in the dungeon
+HEALB	0+0d0
+DAMB	0+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	2c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Mace
+TYPE	WEAPON
+DESC	Iron from the nearby mine was used to create this spiked weapon
+HEALB	0+0d0
+DAMB	2+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	5
+VAL	5c+1d3
+RRTY	90
+END
+
+BEGIN
+NAME	Spear
+TYPE	WEAPON
+DESC	A sharpened rod of wood
+HEALB	0+0d0
+DAMB	1+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	1c+1d3
+RRTY	100
+END
+
+BEGIN
+NAME	Staff
+TYPE	WEAPON
+DESC	Staffs can be used for fighting, but they also help you traverse the dungeon a little easier
+HEALB	0+0d0
+DAMB	1+1d3
+DEFB	0+0d0
+SPEEB	1+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	6c+1d3
+RRTY	80
+END
+
+BEGIN
+NAME	Iron Rod
+TYPE	WEAPON
+DESC	It looks like this iron rod was going to be made into something, but was discarded first
+HEALB	0+0d0
+DAMB	2+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	5
+VAL	10c+1d3
+RRTY	70
+END
+
+BEGIN
+NAME	Pocket Knife
+TYPE	WEAPON
+DESC	A simple knife left behind in the dungeon
+HEALB	0+0d0
+DAMB	1+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	8c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Machete
+TYPE	WEAPON
+DESC	Forged steel meant for cutting through thick brush
+HEALB	0+0d0
+DAMB	2+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	3
+VAL	15c+3d2
+RRTY	80
+END
+
+************ WEAPON OFFHAND ************
+
+BEGIN
+NAME	Great Sword
+TYPE	WEAPON
+DESC	A large two-handed weapon found forgotten in the dungeon
+HEALB	0+0d0
+DAMB	5+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	8
+VAL	1s+0d0 5c+1d2
+RRTY	50
+ATTR	TWOHAND
+END
+
+BEGIN
+NAME	Battleaxe
+TYPE	WEAPON
+DESC	A large two-handed weapon found forgotten in the dungeon
+HEALB	0+0d0
+DAMB	5+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	8
+VAL	1s+0d0 5c+1d2
+RRTY	50
+ATTR	TWOHAND
+END
+
+BEGIN
+NAME	Halberd
+TYPE	WEAPON
+DESC	Imagine a battleaxe, but with a much larger handle
+HEALB	0+0d0
+DAMB	5+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	8
+VAL	1s+0d0 5c+2d3
+RRTY	50
+ATTR	TWOHAND
+END
+
+BEGIN
+NAME	Pickaxe
+TYPE	WEAPON
+DESC	The pickaxe is very handy when tunneling
+HEALB	0+0d0
+DAMB	0+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	8
+VAL	15c+1d3
+RRTY	80
+ATTR	TWOHAND TUNN
+END
+
+BEGIN
+NAME	Shovel
+TYPE	WEAPON
+DESC	Shovels are useful for digging through the surrounding rocky walls, but are not great for fighting off the underground hordes
+HEALB	0+0d0
+DAMB	0+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	3
+VAL	10c+2d2
+RRTY	100
+ATTR	TWOHAND TUNN
+END
+
+************ WEAPON RANGED ************
+
+BEGIN
+NAME	Stone
+TYPE	WEAPON
+DESC	Little stones from the ground can be thrown at enemies
+HEALB	0+0d0
+DAMB	1+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0c+0d0
+RRTY	100
+ATTR	RANGED TWOHAND
+END
+
+BEGIN
+NAME	Tomahawk
+TYPE	WEAPON
+DESC	A hatchet meant for throwing
+HEALB	0+0d0
+DAMB	1+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	9c+1d3
+RRTY	70
+ATTR	RANGED TWOHAND
+END
+
+BEGIN
+NAME	Blowgun
+TYPE	WEAPON
+DESC	Use darts along with this wooden tube for a quick ranged attack
+HEALB	0+0d0
+DAMB	1+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5c+1d4
+RRTY	50
+ATTR	TWOHAND RANGED
+END
+
+BEGIN
+NAME	Shortbow
+TYPE	WEAPON
+DESC	A small bow with a low draw force
+HEALB	0+0d0
+DAMB	1+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	15c+1d4
+RRTY	70
+ATTR	TWOHAND RANGED
+END
+
+BEGIN
+NAME	Longbow
+TYPE	WEAPON
+DESC	A large bow with a large draw force
+HEALB	0+0d0
+DAMB	1+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	15c+1d4
+RRTY	60
+ATTR	TWOHAND RANGED
+END
+
+BEGIN
+NAME	Hunting Sling
+TYPE	WEAPON
+DESC	This sling will help throw stones much faster than by hand
+HEALB	0+0d0
+DAMB	2+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5c+1d4
+RRTY	80
+ATTR	TWOHAND RANGED
+END
+
+BEGIN
+NAME	Wooden Crossbow
+TYPE	WEAPON
+DESC	The crossbow is a mechanical weapon with a might punch
+HEALB	0+0d0
+DAMB	2+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	1s+0d0 5c+1d4
+RRTY	40
+ATTR	TWOHAND RANGED
+END
+
+************ OFFHAND ************
+
+BEGIN
+NAME	Wooden Sheild
+TYPE	OFFHAND
+DESC	A wooden sheild
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	4c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Bronze Sheild
+TYPE	OFFHAND
+DESC	A bronze sheild
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	2+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	4
+VAL	1s+0d0 18c+1d2
+RRTY	80
+END
+
+BEGIN
+NAME	Iron Sheild
+TYPE	OFFHAND
+DESC	An iron sheild
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	3+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	5
+VAL	1s+0d0 18+1d2
+RRTY	60
+END
+
+BEGIN
+NAME	Steel Sheild
+TYPE	OFFHAND
+DESC	A steel sheild
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	4+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	6
+VAL	1s+1d2 5+1d2
+RRTY	40
+END
+
+************ ARMOR ************
+
+BEGIN
+NAME	Leather Armor
+TYPE	ARMOR
+DESC	Simple leather armor
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Wooden Armor
+TYPE	ARMOR
+DESC	Finely crafted wooden armor
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	2+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	18c+2d2
+RRTY	100
+END
+
+BEGIN
+NAME	Bronze Armor
+TYPE	ARMOR
+DESC	Bronze armor from a long dead dungeon soldier
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	3+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	4
+VAL	2s+0d0 15c+4d2
+RRTY	80
+END
+
+BEGIN
+NAME	Iron Armor
+TYPE	ARMOR
+DESC	Iron armor forged in the depths of the dungeon
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	4+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	6
+VAL	5s+1d2 2c+2d5
+RRTY	70
+END
+
+BEGIN
+NAME	Steel Armor
+TYPE	ARMOR
+DESC	Steel armor that could only have been forged above ground by the local smith
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	5+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	8
+VAL	7s+1d2 2c+2d5
+RRTY	50
+END
+
+************ HELMET ************
+
+BEGIN
+NAME	Leather Helmet
+TYPE	HELMET
+DESC	A simple leather helmet
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Wooden Helmet
+TYPE	HELMET
+DESC	A finely crafted wooden helmet
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	2+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	18c+2d2
+RRTY	100
+END
+
+BEGIN
+NAME	Bronze Helmet
+TYPE	HELMET
+DESC	A bronze helmet from a long dead dungeon soldier
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	3+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	2
+VAL	2s+0d0 15c+4d2
+RRTY	80
+END
+
+BEGIN
+NAME	Iron Helmet
+TYPE	HELMET
+DESC	An iron helmet forged in the depths of the dungeon
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	4+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	3
+VAL	3s+1d2 2c+1d5
+RRTY	70
+END
+
+BEGIN
+NAME	Steel Helmet
+TYPE	HELMET
+DESC	A steel helmet that could only have been forged above ground by the local smith
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	5+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	4
+VAL	5s+1d2 2c+1d5
+RRTY	50
+END
+
+************ CLOAK ************
+
+BEGIN
+NAME	Simple Cloak
+TYPE	CLOAK
+DESC	A travelers cloak good for keeping warm at night
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5c+1d3
+RRTY	100
+END
+
+BEGIN
+NAME	Shadow Cloak
+TYPE	CLOAK
+DESC	The shadow cloak is a dark material that helps to escond the wearer from enemy eyes
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5s+2d3 10c+1d8
+RRTY	40
+ATTR	RHIDE TEMP
+END
+
+BEGIN
+NAME	Stealth Cloak
+TYPE	CLOAK
+DESC	The stealth cloak shrouds the user and keeps off unwanted eyes (from a distance)
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10s+2d5 2c+1d10
+RRTY	40
+ATTR	DHIDE TEMP
+END
+
+BEGIN
+NAME	Cloak of the Lost Soul
+TYPE	CLOAK
+DESC	Once used by the Lost Souls of the dungeon, the Cloak of the Lost Soul allows the wearer to pass through material walls as if they weren't there
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	3g+2d4 4s+3d4 2c+3d4
+RRTY	20
+ATTR	PASS TEMP
+END
+
+************ GLOVES ************
+
+BEGIN
+NAME	Leather Gloves
+TYPE	GLOVES
+DESC	Simple leather gloves
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Enchanted Gloves
+TYPE	GLOVES
+DESC	Normal leather gloves, which grant the user a bonus
+HEALB	0+1d4
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10s+2d3 4c+2d5
+RRTY	20
+END
+
+BEGIN
+NAME	Enchanted Gloves
+TYPE	GLOVES
+DESC	Normal leather gloves, which grant the user a bonus
+HEALB	0+0d0
+DAMB	0+1d4
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10s+2d3 4c+2d5
+RRTY	20
+END
+
+BEGIN
+NAME	Enchanted Gloves
+TYPE	GLOVES
+DESC	Normal leather gloves, which grant the user a bonus
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+1d4
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10s+2d3 4c+2d5
+RRTY	20
+END
+
+BEGIN
+NAME	Enchanted Gloves
+TYPE	GLOVES
+DESC	Normal leather gloves, which grant the user a bonus
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+1d4
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10s+2d3 4c+2d5
+RRTY	20
+END
+
+BEGIN
+NAME	Enchanted Gloves
+TYPE	GLOVES
+DESC	Normal leather gloves, which grant the user a bonus
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+1d4
+WEIGHT	1
+VAL	10s+2d3 4c+2d5
+RRTY	20
+END
+
+BEGIN
+NAME	Iron Knuckles
+TYPE	GLOVES
+DESC	These gloves help pack a punch
+HEALB	0+0d0
+DAMB	0+1d2
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	2s+1d2 12c+2d3
+RRTY	80
+ATTR	TUNN
+END
+
+************ BOOTS ************
+
+BEGIN
+NAME	Leather Boots
+TYPE	BOOTS
+DESC	Simple leather boots
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10c+1d3
+RRTY	100
+END
+
+BEGIN
+NAME	Slippery Boots
+TYPE	BOOTS
+DESC	unusually slippery leather boots
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	-1+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	2s+1d3 2c+1d3
+RRTY	50
+END
+
+BEGIN
+NAME	Dirty Boots
+TYPE	BOOTS
+DESC	Simple leather boots
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5c+1d3
+RRTY	100
+END
+
+BEGIN
+NAME	Miner Boots
+TYPE	BOOTS
+DESC	Simple leather boots
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	1+0d0
+SPEEB	1+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	1s+0d0 5c+1d10
+RRTY	70
+ATTR	TUNN
+END
+
+************ RINGS ************
+
+BEGIN
+NAME	Lost Wedding Ring
+TYPE	RING
+DESC	A very expensive looking wedding ring that was lost in the dungeon
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	2g+1d3 0s+1d19 0c+1d19
+RRTY	50
+END
+
+BEGIN
+NAME	Golden Ring
+TYPE	RING
+DESC	A thin golden band 
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	2g+1d3 0s+1d19 0c+1d19
+RRTY	50
+END
+
+BEGIN
+NAME	Bent Nail Ring
+TYPE	RING
+DESC	It looks like someone bent a nail into a ring for some reason
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	0c+1d10
+RRTY	100
+END
+
+BEGIN
+NAME	Ring of Light Feet
+TYPE	RING
+DESC	Imbued with magic, this ring helps you move lightly through the dungeon
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	1+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	2g+1d2 0s+1d18 0c+1d5
+RRTY	30
+END
+
+BEGIN
+NAME	Ring of the Mighty Oak
+TYPE	RING
+DESC	At first glance, this appears to be a simple wooden ring...
+HEALB	0+0d0
+DAMB	0+1d3
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1g+1d2 0s+1d18 0c+1d5
+RRTY	30
+END
+
+BEGIN
+NAME	Ring of Protection
+TYPE	RING
+DESC	Small things can sometimes be very safe
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+1d2
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1g+1d2 0s+1d18 0c+1d5
+RRTY	30
+END
+
+BEGIN
+NAME	Ring of Stealth
+TYPE	RING
+DESC	Small things can sometimes be very safe
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1g+1d2 0s+1d18 0c+1d5
+RRTY	30
+ATTR	DHIDE
+END
+
+BEGIN
+NAME	Bone Ring
+TYPE	RING
+DESC	This bone ring probably came from the orcs
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1c+1d18
+RRTY	100
+END
+
+************ AMULETS ************
+
+BEGIN
+NAME	Amulet of Rage
+TYPE	AMULET
+DESC	The amulet of rage inflicts a temporary doubling of the users damage
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10g+1d5 1s+1d14 1c+1d15
+RRTY	20
+ATTR	RAGE TEMP
+END
+
+BEGIN
+NAME	Jokers Amulet
+TYPE	AMULET
+DESC	
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	1g+0d0 1s+1d2 2c+1d4
+RRTY	40
+ATTR	RANDEFF
+END
+
+BEGIN
+NAME	Amulet of Speed
+TYPE	AMULET
+DESC	This amulet allows the wearer to move faster than a normal human
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	1+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	1g+1d4 1s+1d2 2c+1d4
+RRTY	30
+END
+
+BEGIN
+NAME	Dungeon Amulet
+TYPE	AMULET
+DESC	This amulet was made to help the wearer navigate dungeons with a little more ease
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	2+0d0
+WEIGHT	1
+VAL	1g+1d4 1s+1d2 2c+1d4
+RRTY	30
+ATTR	TUNN
+END
+
+BEGIN
+NAME	Amulet of Knowing
+TYPE	AMULET
+DESC	A birds eye signal toward the exit is provided to the user of this amulet
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	10g+1d4 1s+1d2 2c+1d4
+RRTY	20
+ATTR	CARD TEMP
+END
+
+BEGIN
+NAME	Dungeoneers Amulet of Guidance
+TYPE	AMULET
+DESC	The Amulet of Guidance like the wise older brother of the Amulet of Knowing
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	20g+1d4 1s+1d2 2c+1d4
+RRTY	10
+ATTR	SCARD TEMP
+END
+
+************ LIGHT ************
+
+BEGIN
+NAME	Candle
+TYPE	LIGHT
+DESC	It's a candle
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	1+0d0
+WEIGHT	1
+VAL	0c+1d5
+RRTY	100
+END
+
+BEGIN
+NAME	Torch
+TYPE	LIGHT
+DESC	It's a torch
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	3+0d0
+WEIGHT	1
+VAL	5c+1d5
+RRTY	100
+END
+
+BEGIN
+NAME	Glowstones
+TYPE	LIGHT
+DESC	Some stones in the dungeon have a faint glow. With a group of them, they offer a nice light
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+1d3
+WEIGHT	1
+VAL	0c+1d5
+RRTY	100
+END
+
+BEGIN
+NAME	Oil Lamp
+TYPE	LIGHT
+DESC	The leftover oil lamps in the underground provide a wide range of light
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	3+1d3
+WEIGHT	2
+VAL	5i+1d10 2c+1d10
+RRTY	70
+END
+
+BEGIN
+NAME	Bottle of Glow worms
+TYPE	LIGHT
+DESC	Glow worms dug up in the caves shine bright when agitated
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+1d3
+WEIGHT	1
+VAL	0c+1d19
+RRTY	100
+END
+
+BEGIN
+NAME	Bioluminescent Fungi
+TYPE	LIGHT
+DESC	Even the cave moss seems to glow when enough is collected
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+1d3
+WEIGHT	1
+VAL	0c+1d19
+RRTY	100
+END
+
+************ SCROLL ************
+
+BEGIN
+NAME	Scroll of History
+TYPE	SCROLL
+DESC	A scroll with tidbits of information about the history of the dungeon
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	2i+2d5 1c+1d19
+RRTY	100
+ATTR	HIST
+END
+
+BEGIN
+NAME	Scroll of Knowledge
+TYPE	SCROLL
+DESC	This scroll serves as a temporary Amulet of Knowing
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	5g+1d3 1c+1d18
+RRTY	40
+ATTR	CARD TEMP
+END
+
+BEGIN
+NAME	Scroll of the Warrior
+TYPE	SCROLL
+DESC	Reading this scroll provokes the reader to gain temporary strength
+HEALB	0+0d0
+DAMB	1+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	60
+ATTR	TEMP
+END
+
+BEGIN
+NAME	Scroll of Silence
+TYPE	SCROLL
+DESC	Reading this scroll temporarily shrouds the reader from many of the dungeon enemies
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	60
+ATTR	DHIDE TEMP
+END
+
+BEGIN
+NAME	Scroll of the Horde
+TYPE	SCROLL
+DESC	Reading this scroll temporarily causes nearby enemies to freeze in their tracks
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	40
+ATTR	FREEZE TEMP
+END
+
+************ FLASK ************
+
+BEGIN
+NAME	Flask of Haste
+TYPE	FLASK
+DESC	This blueish liquid temporarily increases the users speed
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	1+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	80
+ATTR	TEMP
+END
+
+BEGIN
+NAME	Flask of Healing
+TYPE	FLASK
+DESC	This drink will spontaneously heal the user
+HEALB	5+1d10
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	100
+END
+
+BEGIN
+NAME	Flask of Strength
+TYPE	FLASK
+DESC	A quick and temporary increase in strength is found in this foul tasting liquid
+HEALB	0+0d0
+DAMB	5+0d0
+DEFB	1+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	70
+ATTR	TEMP
+END
+
+BEGIN
+NAME	Flask of Night Vision
+TYPE	FLASK
+DESC	Temporarily gain extra sight by drinking from this flask
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	3+0d0
+WEIGHT	1
+VAL	0g+1d3 1c+1d18 0s+1d19
+RRTY	80
+ATTR	TEMP
+END
+
+BEGIN
+NAME	Flask of Time
+TYPE	FLASK
+DESC	The liquid in this flask holds the unexplainable power of freezing all movement but the users for a time
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	1
+VAL	15g+1d3 1c+1d18 0s+1d19
+RRTY	10
+ATTR	FREEZE TEMP
+END
+
+************ GOLD ************
+
+BEGIN
+NAME	Copper Coin
+TYPE	GOLD
+DESC	A simple copper coin
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1c+0d0
+RRTY	100
+END
+
+BEGIN
+NAME	Silver Coin
+TYPE	GOLD
+DESC	A solid silver coin
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1s+0d0
+RRTY	80
+END
+
+BEGIN
+NAME	Gold Coin
+TYPE	GOLD
+DESC	A solid gold coin
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1g+0d0
+RRTY	70
+END
+
+BEGIN
+NAME	Coin Pouch
+TYPE	GOLD
+DESC	A misplaced coin pouch forgotten in the underground
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1s+1d5 1c+1d18
+RRTY	80
+END
+
+BEGIN
+NAME	Coin Chest
+TYPE	GOLD
+DESC	A finely crafted mini chest full of coins
+HEALB	0+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	0g+1d8 0s+1d19 0c+1d19
+RRTY	30
+END
+ 
+************ FOOD ************
+
+BEGIN
+NAME	Moldy Cheese
+TYPE	FOOD
+DESC	who knows how long this cheese has been sitting around...
+HEALB	1+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1c+1d2
+RRTY	100
+END
+
+BEGIN
+NAME	Cooked Rabbit
+TYPE	FOOD
+DESC	Someone must have dropped this great treat!
+HEALB	5+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	4c+0d0
+RRTY	70
+END
+
+BEGIN
+NAME	Cooked Rat
+TYPE	FOOD
+DESC	troll food
+HEALB	2+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	1c+0d0
+RRTY	60
+END
+
+BEGIN
+NAME	Bruised Apple
+TYPE	FOOD
+DESC	A nice find in the dungeon
+HEALB	4+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	3c+0d0
+RRTY	80
+END
+
+BEGIN
+NAME	Dungeon Shrooms
+TYPE	FOOD
+DESC	They might have a side effect...
+HEALB	1+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	0c+0d0
+RRTY	80
+END
+
+BEGIN
+NAME	Dungeon Rations
+TYPE	FOOD
+DESC	Dungeon Rations are usually dropped by humans that were once trapped down here
+HEALB	5+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	5c+0d0
+RRTY	80
+END
+
+BEGIN
+NAME	Raw Cave Fish
+TYPE	FOOD
+DESC	There don't seem to be water sources around here...
+HEALB	3+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	3c+0d0
+RRTY	80
+END
+
+BEGIN
+NAME	Cave Slime
+TYPE	FOOD
+DESC	For the truely desperate
+HEALB	1+0d0
+DAMB	0+0d0
+DEFB	0+0d0
+SPEEB	0+0d0
+SIGHB	0+0d0
+WEIGHT	0
+VAL	0c+0d0
+RRTY	100
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

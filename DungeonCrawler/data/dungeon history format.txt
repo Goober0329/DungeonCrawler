@@ -1,0 +1,74 @@
+EXAMPLE
+
+This is a dungeon history file.
+Each line contains one tidbit of information about the dungeon.
+Overtime, the reader will learn more and more about the dungeon. bit by bit..
+I will have it be one coherent structure at first and then break it up into smaller lesss coherent sections.
+Those will help the player piece together the dungeon history as the user plays the game more.
+this line is a random line that doesnt have a capitol or a period
+
+
+BRAINSTORMING (if I've used it, I bring it back to wall)
+
+Geography:
+
+	World name:
+Gralagos
+
+	Region name:
+Eraone
+
+	Rivers:
+Monkgami
+Oakboia
+
+	Forests:
+Corgue
+Forram
+Ogegeo
+
+	Cave systems:
+Leanora
+Munwaki
+Eplam
+Paratane
+Terdareh
+
+People:
+
+	4 different people groups:
+Humans
+Dwarves
+Elves
+Giants
+		
+	Kingdoms:
+Kotha (Humans)
+Grothomore (Dwarves)
+Sotealia (Elves)
+Nido (Giants)
+Yuvalon (desolate area filled with war)
+
+	Other creatures:
+Ogre
+Orc
+Troll
+Undead
+	
+History:
+
+	Wars:
+War of the Eclipse
+War of the Rebellion
+The Eternal Burning Battle
+Nido War of Ages
+
+	Myths/Legends/Stories:
+Stories about the wars and all that jazz
+Cave systems throughout Gralagos
+Many lost wanderers
+Ancient civilizations
+Not even the dwarves have mastered the cave systems
+Many dissaperances in the region of Eraone.
+	
+
